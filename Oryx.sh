@@ -64,7 +64,7 @@ echo '/.vscode
 # function to push to gitHub
 gitPush() {
 
-    git remote set-url origin https://uwindaji:enauoram29*@github.com/uwindaji/oryx.git
+    git remote set-url origin https://uuser:pass@github.com/user/oryx.git
     git rm --cached -f *.DS_Store
     git init
     git add .
@@ -73,7 +73,7 @@ gitPush() {
     read commit
     git commit -m "'$commit'"
 
-    git remote add origin https://uwindaji:enauoram29*@github.com/uwindaji/oryx.git
+    git remote add origin https://user:pass@github.com/user/oryx.git
     git push -u origin master
 }
 
